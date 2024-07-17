@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: black;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+header{
+    background: linear-gradient(
+    rgba(255, 254, 253, 0.7),
+    rgba(255, 254, 253, 0.9)),
+    url(https://wallpapercave.com/wp/wp4676574.jpg)center  center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: block;
+    unicode-bidi: isolate;
+    }
+    
+:root {
+    --primary-color: #29a598;
+    /* --text-color: #394c4a; */
+    --background-light: #ffffff;
+    --header-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 110%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: #394c4a;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+
+
+.img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 
+}
+.img:hover{
+    cursor: pointer;
+    zoom: 120%;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Unica One', cursive;
+    font-size: 1.2rem;
+}
+
+.header-content img {
+    max-width: 300px;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.header-content h1, .header-content p {
+    margin: 0.5rem 0;
+    font-family: 'Unica One', cursive;
+
+}
+
+#about {
+    background-color: #ffffff; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.profile-photo {
+    max-width: 15%;
+    height: auto; 
+    border-radius: 50%; 
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 0.5%;
+    background-color: #0fbfbf;
+}
+
+
+#portfolio {
+    background-color: #cd8181ea; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#portfolio:hover{
+    color: #000a0a;
+}
+
+.project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #120909;
+    margin: 10px;
+    display: inline-block;
+    line-height: 200px;
+    border-radius: 50%;
+    background-color: rgb(227, 230, 203);
+    padding: 0.5%;
+    
+}
+.project:hover{
+    cursor: pointer;
+    background-color: #73a228;
+    zoom: 90%;
+}
+#contact {
+    background-color: #84b5a0; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.td-btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+     background-color: #0fbfbf; 
+
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Additional Styles */
+h2 {
+    color: #333;
+    font-family: 'Unica One', cursive;
+    font-size: 2.3rem;
+}
+
+a {
+    color: #29a598;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #208479;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+  
+.profile-photo {
+        width: 50%; 
+        margin: 0 auto; 
+    }
+}
+p{
+    font-family: cursive;
+}
+.button{
+    background-color: rgb(235, 174, 174);
+    border-color:none;
+    color: #011414;
+}
+.button:hover{
+    cursor: pointer;
+    zoom: 120%;
+    background-color: #043302;
+    color: #f4f4f4;
+    border-radius: 10px;
+}
